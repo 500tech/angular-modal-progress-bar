@@ -1,5 +1,5 @@
 
-angular.module('500tech-modal-progress-bar', [])
+angular.module('500tech.modal-progress-bar', [])
 .service 'Loader', ($interval) ->
   states: {}
   loading: { progress: 0, phrase: '' }

@@ -18,12 +18,12 @@ Add to index.html:
 <script type="text/javascript" src="bower_components/angular-modal-progress-bar/dist/angular-modal-progress-bar.js"></script>
 ```
 
-Inject ``'500tech-modal-progress-bar'`` into your main module:
+Inject ``'500tech.modal-progress-bar'`` into your main module:
 
 ```javascript
 angular.module('App', [
   // ... other dependencies
-  '500tech-modal-progress-bar'
+  '500tech.modal-progress-bar'
 ])
 ```
 
